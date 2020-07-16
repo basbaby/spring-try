@@ -15,4 +15,4 @@ steps:
     repository: '$(imageRepository)'
     command: 'buildAndPush'
     Dockerfile: 'Dockerfile'
-    tags: '$(dockerTag'
+    tags: '$(dockerTag)'

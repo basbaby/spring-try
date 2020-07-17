@@ -8,7 +8,7 @@
     <version>0.1.0</version>
     <packaging>jar</packaging>
     <name>Spring Boot Docker</name>
-    <description>Getting started with Spring Boot and Docker</description>
+    <description>Getting started with Spring Boot</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

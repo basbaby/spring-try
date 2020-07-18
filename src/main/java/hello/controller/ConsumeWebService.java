@@ -17,7 +17,7 @@ public class ConsumeWebService {
         HttpHeaders headers = new HttpHeaders();
         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
         HttpEntity<String> entity = new HttpEntity<String>(headers);
-        ResponseEntity<String> result = restTemplate.exchange("hhttp://basil-hello-world.us-e2.cloudhub.io/hello", HttpMethod.GET, entity, String.class);
+        ResponseEntity<String> result = restTemplate.exchange("http://basil-hello-world.us-e2.cloudhub.io/hello", HttpMethod.GET, entity, String.class);
         return result.toString();
     }
 }
